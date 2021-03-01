@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{E9061E5C-E825-421D-8DDC-9354110C771C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReproApp.Shared FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReproApp/ReproApp.Shared/App.xaml">
+    <Files>
+      <File FileName="ReproApp/ReproApp.Shared/MainPage.xaml" Line="34" Column="88" />
+      <File FileName="ReproApp/ReproApp.Shared/MainPage.xaml.cs" Line="28" Column="10" />
+      <File FileName="ReproApp/ReproApp.Shared/App.xaml" Line="6" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReproApp" expanded="True">
+            <Node name="ReproApp.macOS" expanded="True" />
+            <Node name="ReproApp.Shared" expanded="True">
+              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>ReproApp/ReproApp.Windows.Desktop/ReproApp.Windows.Desktop.csproj</String>
+    <String>ReproApp/ReproApp.UWP/ReproApp.Uwp.csproj</String>
+    <String>ReproApp/ReproApp.iOS/ReproApp.iOS.csproj</String>
+    <String>ReproApp/ReproApp.Droid/ReproApp.Droid.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ReproApp.macOS PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

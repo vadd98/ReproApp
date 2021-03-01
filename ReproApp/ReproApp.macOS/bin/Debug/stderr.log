@@ -1,0 +1,1 @@
+2021-03-01 21:08:47.932 ReproApp.macOS[11859:558386] *** WARNING: Method userSpaceScaleFactor in class NSView is deprecated on 10.7 and later. It should not be used in new applications. Use convertRectToBacking: instead. 

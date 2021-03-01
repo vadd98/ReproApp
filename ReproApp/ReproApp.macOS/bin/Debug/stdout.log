@@ -1,0 +1,103 @@
+[40m[1m[33mwarn[39m[22m[49m: System.Text.StringBuilder[0]
+      Failed to apply Font Segoe UI
+[40m[1m[33mwarn[39m[22m[49m: System.Text.StringBuilder[0]
+      Failed to apply Font XamlAutoFontFamily
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Uno.UI.RemoteControl.RemoteControlClient[0]
+      Failed to connect to the server (System.TimeoutException: The operation has timed out.
+        at Uno.UI.RemoteControl.RemoteControlClient.StartConnection () [0x000d5] in C:\a\1\s\src\Uno.UI.RemoteControl\RemoteControlClient.cs:127 )
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 
+[41m[30mfail[39m[22m[49m: Microsoft.UI.Xaml.UIElement[0]
+      Failed to raise 'PointerReleasedEvent': System.NullReferenceException: Object reference not set to an instance of an object
+        at ReproApp.MainPage.OnStartAnimationButtonClick (System.Object sender, Microsoft.UI.Xaml.RoutedEventArgs e) [0x00001] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.Shared/MainPage.xaml.cs:32 
+        at ReproApp.MainPage+<>c__DisplayClass3_1.<InitializeComponent>b__16 (System.Object OnStartAnimationButtonClick_sender, Microsoft.UI.Xaml.RoutedEventArgs OnStartAnimationButtonClick_e) [0x00000] in /Users/vincenzoaddati/Desktop/ReproApp/ReproApp/ReproApp.macOS/obj/iPhoneSimulator/Debug/g/XamlCodeGenerator/MainPage_d27bd22e0450ef7a86dd19c108c44df7.g.cs:243 
+        at (wrapper delegate-invoke) <Module>.invoke_void_object_RoutedEventArgs(object,Microsoft.UI.Xaml.RoutedEventArgs)
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:304 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.RaiseClick (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:294 
+        at Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.OnPointerReleased (Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00065] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Primitives\ButtonBase\ButtonBase.cs:266 
+        at Microsoft.UI.Xaml.Controls.Control+<>c.<.cctor>b__301_10 (System.Object sender, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x00000] in C:\a\1\s\src\Uno.UI\UI\Xaml\Controls\Control\Control.cs:865 
+        at Microsoft.UI.Xaml.UIElement.InvokeHandler (System.Object handler, Microsoft.UI.Xaml.RoutedEventArgs args) [0x000e7] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:826 
+        at Microsoft.UI.Xaml.UIElement.RaiseEvent (Microsoft.UI.Xaml.RoutedEvent routedEvent, Microsoft.UI.Xaml.RoutedEventArgs args, Microsoft.UI.Xaml.UIElement+BubblingContext ctx) [0x0007f] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.RoutedEvents.cs:613 
+        at Microsoft.UI.Xaml.UIElement.RaisePointerEvent (Microsoft.UI.Xaml.RoutedEvent evt, Microsoft.UI.Xaml.Input.PointerRoutedEventArgs args) [0x0000d] in C:\a\1\s\src\Uno.UI\UI\Xaml\UIElement.Pointers.cs:933 

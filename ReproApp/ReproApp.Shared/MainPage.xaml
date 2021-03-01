@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page x:Class="ReproApp.MainPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:ReproApp" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.Resources>
+            <Storyboard x:Name="ButtonAnimation">
+                <DoubleAnimation 
+                        Storyboard.TargetName="RearEllipseTransform" 
+                        AutoReverse="True"
+                        Storyboard.TargetProperty="ScaleX" 
+                        From="1" To="1.10" Duration="0:0:2" RepeatBehavior="Forever" />
+                <DoubleAnimation 
+                        Storyboard.TargetName="RearEllipseTransform" 
+                        AutoReverse="True"
+                        Storyboard.TargetProperty="ScaleY" 
+                        From="1" To="1.10" Duration="0:0:2" RepeatBehavior="Forever" />
+                <ColorAnimation Storyboard.TargetName="RearEllipse"                                    
+                        Storyboard.TargetProperty="(Ellipse.Fill).(SolidColorBrush.Color)"
+                        To="{ThemeResource Blue}"/>
+            </Storyboard>
+        </Grid.Resources>
+
+        <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+
+        <Grid x:Name="ButtonGrid" HorizontalAlignment="Center">
+            <Ellipse x:Name="RearEllipse" HorizontalAlignment="Center" Height="30" Width="30" Fill="Blue" Stroke="Blue" VerticalAlignment="Center">
+                <Ellipse.RenderTransform>
+                    <ScaleTransform x:Name="RearEllipseTransform" CenterX="15" CenterY="15"/>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse x:Name="FrontEllipse" HorizontalAlignment="Center" Height="25" Width="25" Fill="{ThemeResource Blue}" Stroke="White" VerticalAlignment="Center"/>
+        </Grid>
+
+        <Button x:Name="StartAnimationButton" Click="OnStartAnimationButtonClick" Content="Start Animation" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,80,0,0"/>
+
+    </Grid>
+</Page>
